@@ -1,0 +1,110 @@
+*{margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(196, 202, 161);
+
+}
+    
+header{
+    padding: 15px 0;
+}
+.container{
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    width: 30%;
+    text-align: center;
+
+}
+.logo img{
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.menu { width: 70%;}
+
+.menu ul{display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu ul li{list-style: none;
+    margin: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    background-color: rgb(13, 248, 248);
+    padding: 8px;
+    border-radius: 10px;
+    color: #995b5b;
+}
+.hero-area{
+    width: 95%;
+}
+.hero-area img{
+    width: 98%;
+    height: 250px;
+}
+.our-service span{padding: 20px 0 20px 75px;
+    display: inline-block;
+
+}
+
+.service-one h2, p, .service-two h2, p, .service-three h3 p,{ display: inline-block;
+    padding: 0 0px 15px ;
+}
+.service-one p, .service-two p, .service-three p,{
+    padding: 0 15px 15px 0;
+    
+}
+
+.about-us{
+    width: 45%;
+    padding: 40px 0px;
+}
+.about-us, p{
+    padding-right: 10px;
+    display: inline-block;
+text-align: justify;
+}
+
+.about-us h2, .contact-us, h2{
+    padding: 20px 0 20px 0px;
+    display: inline-block;
+}
+.about-image{
+    width: 45%;
+    padding: 40px 0px;
+}
+.about-image img {
+    width: 100%;
+}
+.contact-us1 h4, .contact-us2 h4{
+    padding: 15px 0 5px 0;
+}
+input,button{
+    padding: 10px 20px;
+}
+footer{
+    padding: 30px;
+    background-color: rgb(15, 17, 17);
+}
+
+footer .menu ul li a{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #f4e8e8;
+}
+
+
+
